@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SuperShop</title>
+
+
+
+  <style>
+
+    .logout-button {
+
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: #23c947bb;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        z-index: 999;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .shop-name {
+      color: coral;
+      text-align: left;
+      font-size: 24px;
+      margin-bottom: 1px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+      }
+    
+    
+      .search-container {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    
+    #search-input {
+      padding: 8px 16px;
+      width: 1200px; /* Adjust the width as needed */
+    }
+    
+    #search-form {
+      display: inline-block;
+    }
+    
+    #search-form button {
+      margin-left: 10px; /* Add some spacing between the input field and the button */
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      .product {
+        text-align: center;
+      }
+      
+      .product img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+      }
+      
+      .product-name {
+        font-weight: medium;
+        margin-top: 10px;
+      }
+      
+      .product-price {
+        color: coral;
+        margin-top: 5px;
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+  <a href="login.html" class="logout-button">Logout</a>
+  
+  <h1 class="shop-name" style="font-size: 4rem">Product Details</h1>
+
+  
+  <div class="search-container">
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search products...">
+
+
+
+
+      <button type="submit">Search</button>
+      
+
+
+
+    </form>
+  </div>
+
+
+
+
+<br>
+<br>
+
+  <div class="container">
+    <div class="product">
+      <img src="milk.jpeg" alt="Milk">
+      <h3 class="product-name">Marks Full Cream Milk Powder</h3>
+      <p class="product-price"> Tk. 450.</p>
+    </div>
+    <div class="product">
+      <img src="fresh-refined-sugar-1-kg.webp" alt="Sugar">
+      <h3 class="product-name">Fresh Refined Sugar</h3>
+      <p class="product-price"> Tk. 75</p>
+    </div>
+    <div class="product">
+      <img src="cofeee.webp" alt="Coffee">
+      <h3 class="product-name">Nestlé Nescafé Classic Instant Coffee Jar</h3>
+      <p class="product-price"> Tk. 560</p>
+    </div>
+    <div class="product">
+      <img src="nestle-coffee-mate-coffee-creamer-box-450-gm.webp" alt="Nestle Coffee Mate">
+      <h3 class="product-name">Nestle Coffee Mate Coffee Creamer Box</h3>
+      <p class="product-price"> Tk. 315</p>
+    </div>
+    <div class="product">
+      <img src="nestle-nescafe-coffee-mate-bundle-free-red-mug.webp" alt="Coffee">
+      <h3 class="product-name">Nestle Nescafe & Coffee Mate Bundle (Free Red Mug)</h3>
+      <p class="product-price"> Tk. 685</p>
+    </div>
+    <div class="product">
+      <img src="ispahani-mirzapore-best-leaf-tea-400-gm.webp" alt="Leaf Tea">
+      <h3 class="product-name">Ispahani Mirzapore Best Leaf Tea</h3>
+      <p class="product-price"> Tk. 210</p>
+    </div>
+    <div class="product">
+      <img src="ispahani-mirzapore-tea-bag-50-pcs.webp" alt="Tea Bag">
+      <h3 class="product-name">Ispahani Mirzapore Tea Bag</h3>
+      <p class="product-price"> Tk. 90</p>
+    </div>
+    <div class="product">
+      <img src="halda-valley-golden-eyebrow-black-tea-100-gm.webp" alt="Black Tea">
+      <h3 class="product-name">Halda Valley Golden Eyebrow Black Tea</h3>
+      <p class="product-price"> Tk. 1695</p>
+    </div>
+    <div class="product">
+      <img src="nestle-maggi-2-minute-masala-instant-noodles-8-pack.webp" alt="Maggi">
+      <h3 class="product-name">Nestle Maggi 2-Minute Masala Instant Noodles</h3>
+      <p class="product-price"> Tk. 175</p>
+    </div>
+    <div class="product">
+      <img src="pran-flattened-rice-chira-500-gm.webp" alt="Chira">
+      <h3 class="product-name">Pran Flattened Rice (Chira)</h3>
+      <p class="product-price"> Tk. 65</p>
+    </div>
+    <div class="product">
+      <img src="pran-puffed-rice-muri-500-gm.webp" alt="Muri">
+      <h3 class="product-name">Pran Puffed Rice (Muri)</h3>
+      <p class="product-price"> Tk. 38</p>
+    </div>
+    <div class="product">
+      <img src="kolson-macaroni-pasta-screw-400-gm.webp" alt="pasta">
+      <h3 class="product-name">Kolson Macaroni Pasta Screw</h3>
+      <p class="product-price"> Tk. 85</p>
+    </div>
+    <div class="product">
+      <img src="knorr-hot-and-sour-chicken-soup-31-gm-5-pcs.webp" alt="Soup">
+      <h3 class="product-name">Knorr Hot and Sour Chicken Soup 31 gm</h3>
+      <p class="product-price"> Tk. 225</p>
+    </div>
+    <div class="product">
+      <img src="fresh-flour-atta-2-kg.webp" alt="Atta ">
+      <h3 class="product-name">Fresh Flour (Atta)</h3>
+      <p class="product-price"> Tk. 122</p>
+    </div>
+    <div class="product">
+      <img src="fresh-white-flour-maida-2-kg.webp" alt="Maida ">
+      <h3 class="product-name">Fresh White Flour (Maida)</h3>
+      <p class="product-price"> Tk. 140</p>
+    </div>
+    <div class="product">
+      <img src="clariss-olive-oil-pomace-glass-bottle-250-ml.webp" alt="Olive oil">
+      <h3 class="product-name">Clariss Olive Oil Pomace Glass Bottle</h3>
+      <p class="product-price"> Tk. 495</p>
+    </div>
+    <div class="product">
+      <img src="fresh-fortified-soyabean-oil-5-ltr.webp" alt="Soyabean oil">
+      <h3 class="product-name">Fresh Fortified Soyabean Oil</h3>
+      <p class="product-price"> Tk. 960</p>
+    </div>
+    <div class="product">
+      <img src="pran-chinigura-aromatic-rice-2-kg.webp" alt="Rice">
+      <h3 class="product-name">Pran Chinigura Aromatic Rice</h3>
+      <p class="product-price"> Tk. 350</p>
+    </div>
+    <div class="product">
+      <img src="pran-hot-tomato-sauce-340-gm.webp" alt=" ">
+      <h3 class="product-name">Pran Hot Tomato Sauce</h3>
+      <p class="product-price"> Tk. 100</p>
+    </div>
+    
+    <div class="product">
+      <img src="radhuni-chilli-morich-powder-200-gm.webp" alt="Maida ">
+      <h3 class="product-name">Radhuni Chilli (Morich) Powder</h3>
+      <p class="product-price"> Tk. 150</p>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
